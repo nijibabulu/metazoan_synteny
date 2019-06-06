@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+._*
+.*sw*
+
+.Rbuildignore
+
+*.pyc
+
+*.DS_Store
+
+man

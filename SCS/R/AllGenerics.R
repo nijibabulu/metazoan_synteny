@@ -1,0 +1,55 @@
+setGeneric('exprTransform', function(object, ...) standardGeneric("exprTransform"))
+
+setGeneric("exprNormalize", function(object, ...) standardGeneric("exprNormalize"))
+
+setGeneric("values", function(x, ...) standardGeneric("values"))
+
+setGeneric("name", function(object) standardGeneric("name"))
+setGeneric("clusterName", function(object) standardGeneric("clusterName"))
+setGeneric("genes", function(object) standardGeneric("genes"))
+setGeneric("genomes", function(object) standardGeneric("genomes"))
+setGeneric("geneSummary", function(object) standardGeneric("geneSummary"))
+setGeneric("setStat", function(object,name,value) standardGeneric("setStat"))
+setGeneric("getStat", function(object,name) standardGeneric("getStat"))
+setGeneric("geneNames", function(object) standardGeneric("geneNames"))
+setGeneric("geneNames<-", function(object,names) standardGeneric("geneNames<-"))
+setGeneric("sc_expr", function(object, expressionSet) standardGeneric("sc_expr"))
+setGeneric("makePair", function(object, other) standardGeneric("makePair"))
+setGeneric("intervening_sizes", function(object, ...) standardGeneric("intervening_sizes"))
+setGeneric("sampleAnalagousBlocks", function(object, ...) standardGeneric("sampleAnalagousBlocks"))
+
+setGeneric("filterGenesInBlock", function(object, ...) standardGeneric("filterGenesInBlock"))
+setGeneric("filterGenesInBlocks", function(object, ...) standardGeneric("filterGenesInBlocks"))
+setGeneric("filterBlocksByStat", function(object, stat, ...) standardGeneric("filterBlocksByStat"))
+setGeneric("getSpeciesBlocks", function(object, species, ...) standardGeneric("getSpeciesBlocks"))
+setGeneric("species", function(object) standardGeneric("species"))
+setGeneric("getPairs", function(object) standardGeneric("getPairs"))
+setGeneric("addBlockToSpecies", function(object, species, block) standardGeneric("addBlockToSpecies"))
+setGeneric("getBlocks", function(object, ...) standardGeneric("getBlocks"))
+setGeneric("filterBlocks", function(object, selectfun) standardGeneric("filterBlocks"))
+setGeneric("addBlock", function(object, block) standardGeneric("addBlock"))
+setGeneric("getClusters", function(object) standardGeneric("getClusters"))
+setGeneric("randomize", function(object, ...) standardGeneric("randomize"))
+setGeneric("addSpecies", function(object, species) standardGeneric("addSpecies"))
+setGeneric("addClust", function(object, clust) standardGeneric("addClust"))
+setGeneric("clusters", function(object) standardGeneric("clusters"))
+setGeneric("grange", function(object) standardGeneric("grange"))
+
+setGeneric("query", function(object, species, ...) standardGeneric("query"))
+setGeneric("speciesGroups", function(object) standardGeneric("speciesGroups"))
+setGeneric("filterClusters", function(object, ...) standardGeneric("filterClusters"))
+
+setGeneric("shuffle.randomize", function(object, ...) standardGeneric("shuffle.randomize"))
+
+setGeneric("getPairs", function(object) standardGeneric("getPairs"))
+
+setGeneric("getGroups", function(object) standardGeneric("getGroups"))
+setGeneric("getByGroup",function(object, sets, ...) standardGeneric("getByGroup") )
+setGeneric("add",function(object, sets, item) standardGeneric("add") )
+setGeneric("intersection.data.frame", function(object) standardGeneric("intersection.data.frame"))
+
+setGeneric("cellinfo", function(object) standardGeneric("cellinfo"))
+setGeneric("mat", function(object) standardGeneric("mat"))
+
+setGeneric("circlePlot", function(object, ...) standardGeneric("circlePlot"))
+setGeneric("summaryGridPlot", function(object, ...) standardGeneric("summaryGridPlot"))

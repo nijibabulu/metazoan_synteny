@@ -1,0 +1,31 @@
+Package: SCS
+Type: Package
+Title: Single Cell Synteny Analysis
+Version: 0.1.0
+Author: Bob Zimmermann
+Maintainer: Bob Zimmermann <robert.zimmermann@univie.ac.at>
+Description: An analysis of data from Single Cell RNA Sequencing of Basal Metazoans
+    Sebe-Pedros et al 2018 Nature Ecology and Evolution 10.1038/s41559-018-0575-6
+Imports: 
+  GenomicRanges,
+  GenomeInfoDb,
+  data.table,
+  fitdistrplus,
+  rsq, 
+  reshape2,
+  WGCNA,
+  Matrix,
+  fastmatch,
+  future.apply,
+  cowplot,
+  tidyverse,
+  argparse,
+  ggplot2,
+  ggthemes,
+  ggsignif,
+  ggrepel,
+  UpSetR
+License: MIT
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 6.1.1
